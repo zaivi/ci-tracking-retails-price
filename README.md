@@ -1,6 +1,6 @@
 # Tracking Price Changes
 
-Capture price changes on [Shopee](https://shopee.vn/) retail website application with Github Workflow.
+Capture price changes on [Tiki](https://tiki.vn/) and [Shopee](https://shopee.vn/) retail website application with Github Workflow.
 
 ## An analytical and statistical overview of the data via Github Flat Data
 

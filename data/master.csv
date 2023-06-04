@@ -1,5 +1,6 @@
 time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt_count,liked_count,item_name,is_latest
-1685889079,2023-06-04 14:31:19,7263335536,19499347,,0,8,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,True
+1685890988,2023-06-04 15:03:08,7263335536,23553824,,0,7,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,True
+1685889079,2023-06-04 14:31:19,7263335536,19499347,,0,8,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,False
 1685887346,2023-06-04 14:02:26,7263335536,20597204,,0,9,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,False
 1685885485,2023-06-04 13:31:25,7263335536,23418322,,0,7,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,False
 1685885025,2023-06-04 13:23:45,7263335536,23294355,,0,10,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,False
@@ -27,7 +28,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858090,20230604,7263335536,21864961,,0,8,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,False
 1685855024,20230604,7263335536,21305055,,0,9,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,False
 1685854892,20230604,7263335536,21305055,,0,9,1,normal,1,0,Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,False
-1685889082,2023-06-04 14:31:22,11213159310,19393919,,0,12,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,True
+1685890990,2023-06-04 15:03:10,11213159310,24553966,,0,11,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,True
+1685889082,2023-06-04 14:31:22,11213159310,19393919,,0,12,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,False
 1685887349,2023-06-04 14:02:29,11213159310,21376818,,0,14,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,False
 1685885487,2023-06-04 13:31:27,11213159310,24215626,,0,11,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,False
 1685885028,2023-06-04 13:23:48,11213159310,24131066,,0,11,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,False
@@ -55,7 +57,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858093,20230604,11213159310,22780095,,0,12,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,False
 1685855025,20230604,11213159310,21262375,,0,13,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,False
 1685854893,20230604,11213159310,21262375,,0,13,0,normal,0,0,Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,False
-1685889074,2023-06-04 14:31:14,11231851127,15281514,8%,16690911,17,1,normal,28,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",True
+1685890983,2023-06-04 15:03:03,11231851127,13508891,8%,14754801,14,1,normal,31,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",True
+1685889074,2023-06-04 14:31:14,11231851127,15281514,8%,16690911,17,1,normal,28,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",False
 1685887341,2023-06-04 14:02:21,11231851127,16651183,8%,18186903,34,1,normal,33,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",False
 1685885481,2023-06-04 13:31:21,11231851127,13978788,8%,15268036,43,1,normal,26,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",False
 1685885019,2023-06-04 13:23:39,11231851127,13909181,8%,15192009,14,1,normal,27,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",False
@@ -82,7 +85,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858788,20230604,11231851127,13144097,8%,14356362,40,1,normal,45,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",False
 1685858085,20230604,11231851127,16985423,8%,18551969,20,1,normal,36,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",False
 1685854891,20230604,11231851127,16548822,8%,18075101,29,1,normal,36,0,"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",False
-1685889073,2023-06-04 14:31:13,12542067258,6561554,8%,7133367,35,53,normal,1317,5,Apple AirPods 3rd gen magsafe charge,True
+1685890982,2023-06-04 15:03:02,12542067258,5852401,8%,6362414,33,57,normal,1504,26,Apple AirPods 3rd gen magsafe charge,True
+1685889073,2023-06-04 14:31:13,12542067258,6561554,8%,7133367,35,53,normal,1317,5,Apple AirPods 3rd gen magsafe charge,False
 1685887340,2023-06-04 14:02:20,12542067258,5262713,8%,5721337,29,54,normal,1489,4,Apple AirPods 3rd gen magsafe charge,False
 1685885480,2023-06-04 13:31:20,12542067258,5979680,8%,6500785,33,56,normal,1318,22,Apple AirPods 3rd gen magsafe charge,False
 1685885017,2023-06-04 13:23:37,12542067258,5956853,8%,6475969,32,68,normal,910,18,Apple AirPods 3rd gen magsafe charge,False
@@ -109,7 +113,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858787,20230604,12542067258,5644689,8%,6136601,25,61,normal,1142,22,Apple AirPods 3rd gen magsafe charge,False
 1685858083,20230604,12542067258,5559396,8%,6043875,28,65,normal,1255,6,Apple AirPods 3rd gen magsafe charge,False
 1685854891,20230604,12542067258,5172549,8%,5623316,22,58,normal,1627,5,Apple AirPods 3rd gen magsafe charge,False
-1685889076,2023-06-04 14:31:16,17787122713,43337593,23%,56140924,26,11,normal,24,4,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,True
+1685890984,2023-06-04 15:03:04,17787122713,38666561,23%,50089918,342,9,normal,27,2,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,True
+1685889076,2023-06-04 14:31:16,17787122713,43337593,23%,56140924,26,11,normal,24,4,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,False
 1685887343,2023-06-04 14:02:23,17787122713,45458220,23%,58888054,49,9,normal,19,3,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,False
 1685885482,2023-06-04 13:31:22,17787122713,38314289,23%,49633574,334,10,normal,32,2,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,False
 1685885021,2023-06-04 13:23:41,17787122713,39346214,23%,50970363,312,11,normal,24,0,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,False
@@ -137,7 +142,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858086,20230604,17787122713,35497281,23%,45984330,31,11,normal,29,4,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,False
 1685855023,20230604,17787122713,34394879,23%,44556243,37,9,normal,20,3,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,False
 1685854891,20230604,17787122713,34394879,23%,44556243,634,9,normal,20,3,Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,False
-1685889083,2023-06-04 14:31:23,18849883953,36356686,24%,47709516,50,5,normal,37,1,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,True
+1685890991,2023-06-04 15:03:11,18849883953,43375061,24%,56919467,47,5,normal,21,1,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,True
+1685889083,2023-06-04 14:31:23,18849883953,36356686,24%,47709516,50,5,normal,37,1,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,False
 1685887350,2023-06-04 14:02:30,18849883953,38159898,24%,50075804,43,4,normal,31,1,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,False
 1685885487,2023-06-04 13:31:27,18849883953,43158525,24%,56635315,47,4,normal,27,0,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,False
 1685885029,2023-06-04 13:23:49,18849883953,43019024,24%,56452253,47,5,normal,37,0,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,False
@@ -164,7 +170,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858797,20230604,18849883953,42529036,24%,55809260,45,5,normal,23,1,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,False
 1685858094,20230604,18849883953,40513883,24%,53164850,52,5,normal,26,2,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,False
 1685854893,20230604,18849883953,39447029,24%,51764858,56,4,normal,25,1,[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,False
-1685889077,2023-06-04 14:31:17,21643101901,43059537,,0,2,1,normal,27,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,True
+1685890985,2023-06-04 15:03:05,21643101901,38077063,,0,2,1,normal,15,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,True
+1685889077,2023-06-04 14:31:17,21643101901,43059537,,0,2,1,normal,27,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,False
 1685887344,2023-06-04 14:02:24,21643101901,45315806,,0,2,1,normal,23,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,False
 1685885483,2023-06-04 13:31:23,21643101901,38937253,,0,2,1,normal,20,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,False
 1685885023,2023-06-04 13:23:43,21643101901,38801854,,0,2,1,normal,27,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,False
@@ -192,7 +199,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858088,20230604,21643101901,47444018,,0,2,1,normal,19,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,False
 1685855023,20230604,21643101901,46669781,,0,2,1,normal,18,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,False
 1685854892,20230604,21643101901,46669781,,0,2,1,normal,18,0,Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,False
-1685889078,2023-06-04 14:31:18,21879459434,36523481,17%,43776177,409,156,normal,78,30,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,True
+1685890986,2023-06-04 15:03:06,21879459434,33784335,17%,40493102,385,136,normal,86,5,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,True
+1685889078,2023-06-04 14:31:18,21879459434,36523481,17%,43776177,409,156,normal,78,30,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,False
 1685887345,2023-06-04 14:02:25,21879459434,39647168,17%,47520154,466,133,normal,64,22,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,False
 1685885484,2023-06-04 13:31:24,21879459434,37797028,5%,39767371,4,135,normal,55,2,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,False
 1685885024,2023-06-04 13:23:44,21879459434,37673001,5%,39636879,4,119,normal,79,45,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,False
@@ -219,7 +227,8 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685858792,20230604,21879459434,31287221,17%,37500120,365,144,normal,89,67,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,False
 1685858089,20230604,21879459434,30737247,17%,36840935,412,158,normal,49,29,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,False
 1685854892,20230604,21879459434,39464264,17%,47300930,438,137,normal,70,25,Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,False
-1685889081,2023-06-04 14:31:21,22533232350,32304251,11%,36472542,1143,0,normal,13,0,Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,True
+1685890989,2023-06-04 15:03:09,22533232350,28474801,11%,32148969,1468,0,normal,7,0,Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,True
+1685889081,2023-06-04 14:31:21,22533232350,32304251,11%,36472542,1143,0,normal,13,0,Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,False
 1685887347,2023-06-04 14:02:27,22533232350,33888803,11%,38261552,1346,0,normal,11,0,Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,False
 1685885486,2023-06-04 13:31:26,22533232350,28308708,11%,31961444,1459,0,normal,10,0,Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,False
 1685885027,2023-06-04 13:23:47,22533232350,28129113,11%,31758677,1441,0,normal,13,0,Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,False

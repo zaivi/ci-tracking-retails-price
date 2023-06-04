@@ -73,7 +73,7 @@ def update_db(data):
     ````
     """
     current_time = int(time.time())
-    current_date = time.strftime('%Y%m%d', time.localtime(current_time))
+    current_date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
     itemid = data.get('itemid')
     shopid = data.get('shopid')
     data['date'] = current_date

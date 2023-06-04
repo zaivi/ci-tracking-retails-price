@@ -26,9 +26,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
+            - uses: actions/setup-python@v4
+              with:
+                python-version: '3.8'
+                cache: 'pip' # caching pip dependencies
+            - run: pip install -r requirements.txt
             - name: Pulling progress
               run: |
-                  pip3 install -r requirements.txt
                   export PYTHONPATH=.:$PYTHONPATH
                   python3 ./main.py
             - name: Patching changes progress

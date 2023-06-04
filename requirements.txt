@@ -1,4 +1,4 @@
-urllib3==2.0.2
+urllib3==1.21.1
 requests==2.18.0
 pyaml==14.11.3
 pandas==1.4

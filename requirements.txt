@@ -1,5 +1,5 @@
 urllib3==1.21.1
-requests3
+requests==2.30.0
 pyaml==14.11.3
 pandas==1.4
 Jinja2

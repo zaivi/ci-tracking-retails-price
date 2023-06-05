@@ -78,7 +78,12 @@ def fetch_data(itemid, shopid, flag='shopee'):
     data_f = {}
     for x,y in zip(source_map, destination_map):
         if y in data:
-            data_f[x] = data[y]
+            if y == 'stock_item':
+                data_f[x] = data[y]['qty']    
+            elif y == 'quantity_sold':
+                data_f[x] = data[y]['value']   
+            else:
+                data_f[x] = data[y]
         else:
             data_f[x] = ""
 

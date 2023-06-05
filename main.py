@@ -12,7 +12,7 @@ from utils.constants import SHOPEE_REQUIRED_FIELDS, TIKI_REQUIRED_FIELDS
 from utils import read_config, is_same_row, ensure_dir, parse_url, update_master_file
 
 
-def fetch_data(itemid, shopid, flag='shopee'):
+def fetch_data(itemid, shopid, hyperlink, flag='shopee'):
     """
     Fetch data from shopee.vn api and return json data
     API: https://shopee.vn/api/v4/item/get?itemid={itemid}&shopid={shopid}
@@ -95,7 +95,8 @@ def fetch_data(itemid, shopid, flag='shopee'):
         data_f['discount'] = str(data_f['discount']) + "%" if data_f['discount'] != 0 else ""
         
     data_f["source"] = flag
-    
+    data_f["url"] = hyperlink
+
     return data_f
 
 
@@ -144,7 +145,7 @@ def update_db(data):
         df = pd.DataFrame(columns=[
             'time', 'date', 'itemid', 'price', 'discount',
             'price_before_discount', 'stock', 'sold', 'item_status',
-            'cmt_count', 'liked_count', 'source'
+            'cmt_count', 'liked_count', 'source', 'url'
         ])
 
     # get the last rows of history file and convert to dict
@@ -166,7 +167,8 @@ def update_db(data):
             'item_status': data.get('item_status'),
             'cmt_count': data.get('cmt_count'),
             'liked_count': data.get('liked_count'),
-            'source': data.get('source')
+            'source': data.get('source'),
+            'url': data.get('url'),
         }
     new_update_df = pd.DataFrame(update_rows, index=[0])
     df = pd.concat([df, new_update_df])
@@ -180,6 +182,7 @@ def update_db(data):
         'image': data.get('image'),
         'shop_location': data.get('shop_location'),
         'source': data.get('source'),
+        'url': data.get('url'),
         'updated_at': datetime.datetime.now().isoformat()
     }
     # create or update info file
@@ -203,7 +206,7 @@ def main():
         try:
             print(f'Processing: {url}')
             itemid, shopid, flag = parse_url(url)
-            data = fetch_data(itemid, shopid, flag)
+            data = fetch_data(itemid, shopid, url, flag)
             update_db(data)
         except Exception as e:
             print(f'Failed to process {url}')

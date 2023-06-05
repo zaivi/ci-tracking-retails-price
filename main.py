@@ -56,22 +56,24 @@ def fetch_data(itemid, shopid, flag='shopee'):
     #     if field not in data:
     #         raise Exception(f'Invalid data from {url}, missing {field}')
 
-    global TIKI_REQUIRED_FIELDS
-    global SHOPEE_REQUIRED_FIELDS
+    shopee_rq = SHOPEE_REQUIRED_FIELDS
+    tiki_rq = TIKI_REQUIRED_FIELDS
 
     if len(SHOPEE_REQUIRED_FIELDS) > len(TIKI_REQUIRED_FIELDS):
-        TIKI_REQUIRED_FIELDS = TIKI_REQUIRED_FIELDS + SHOPEE_REQUIRED_FIELDS[len(TIKI_REQUIRED_FIELDS): len(SHOPEE_REQUIRED_FIELDS)]
+        tiki_rq = TIKI_REQUIRED_FIELDS + SHOPEE_REQUIRED_FIELDS[len(TIKI_REQUIRED_FIELDS): len(SHOPEE_REQUIRED_FIELDS)]
     else:
-        SHOPEE_REQUIRED_FIELDS = SHOPEE_REQUIRED_FIELDS.append(TIKI_REQUIRED_FIELDS[len(SHOPEE_REQUIRED_FIELDS): len(TIKI_REQUIRED_FIELDS)])
+        shopee_rq = SHOPEE_REQUIRED_FIELDS.append(TIKI_REQUIRED_FIELDS[len(SHOPEE_REQUIRED_FIELDS): len(TIKI_REQUIRED_FIELDS)])
         
     # mapping fields to common fields
     data_f = {}
-    for x,y in zip(SHOPEE_REQUIRED_FIELDS, TIKI_REQUIRED_FIELDS):
+    for x,y in zip(shopee_rq, tiki_rq):
         if y in data:
             data_f[x] = data[y]
         else:
             data_f[x] = ""
 
+    data_f["source"] = flag
+    
     return data_f
 
 
@@ -120,7 +122,7 @@ def update_db(data):
         df = pd.DataFrame(columns=[
             'time', 'date', 'itemid', 'price', 'discount',
             'price_before_discount', 'stock', 'sold', 'item_status',
-            'cmt_count', 'liked_count'
+            'cmt_count', 'liked_count', 'source'
         ])
 
     # get the last rows of history file and convert to dict
@@ -141,7 +143,8 @@ def update_db(data):
             'sold': data.get('sold'),
             'item_status': data.get('item_status'),
             'cmt_count': data.get('cmt_count'),
-            'liked_count': data.get('liked_count')
+            'liked_count': data.get('liked_count'),
+            'source': data.get('source')
         }
     new_update_df = pd.DataFrame(update_rows, index=[0])
     df = pd.concat([df, new_update_df])

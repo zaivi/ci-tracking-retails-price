@@ -25,10 +25,14 @@ def parse_url(url):
         url_split = url.split('.')
         itemid = url_split[-1]
         shopid = url_split[-2]
-    
-    if re.match(r'^https:\/\/tiki.vn\/.*[0-9]+\?platform=web&spid=[0-9]+$', url):
+    elif re.match(r'^https:\/\/tiki.vn\/.*[0-9]+\?platform=web&spid=[0-9]+$', url):
         flag = "tiki"
         url_split = re.findall(".+\/(.*[0-9])+\?platform=web&spid=([0-9])", url)
+        itemid = url_split[0][-1]
+        shopid = url_split[0][-2]
+    elif re.match(r'^https:\/\/tiki.vn\/.*\d+.html.*spid=[0-9]+$', url):
+        flag = "tiki"
+        url_split = re.findall("(\d+).html.*spid=([0-9]+$)", url)
         itemid = url_split[0][-1]
         shopid = url_split[0][-2]
     

@@ -45,6 +45,7 @@ def update_master_file(src='./data/history/*.csv', target='./data/master.csv'):
     df['is_latest'] = df.groupby('itemid').cumcount() == 0
 
     # save to master file
+    df = df[['item_name', 'source', 'date', 'price', 'discount', 'price_before_discount', 'stock', 'sold', 'cmt_count', 'liked_count', 'item_status', 'is_latest']]
     df.to_csv(target, index=False)
 
     # Get file size of master file in KB

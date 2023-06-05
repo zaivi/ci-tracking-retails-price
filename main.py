@@ -8,41 +8,71 @@ import datetime
 import requests
 import pandas as pd
 
-from utils import read_config, is_same_row, ensure_dir, parse_shopee_url, update_master_file
+from utils.constants import SHOPEE_REQUIRED_FIELDS, TIKI_REQUIRED_FIELDS
+from utils import read_config, is_same_row, ensure_dir, parse_url, update_master_file
 
 
-def fetch_data(itemid, shopid):
+def fetch_data(itemid, shopid, flag='shopee'):
     """
     Fetch data from shopee.vn api and return json data
     API: https://shopee.vn/api/v4/item/get?itemid={itemid}&shopid={shopid}
     Raise exception if response status code is not 200
     """
-    url = f'https://shopee.vn/api/v4/item/get?itemid={itemid}&shopid={shopid}'
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
     }
+    if flag == 'shopee':
+        url = f'https://shopee.vn/api/v4/item/get?itemid={itemid}&shopid={shopid}'
+    elif flag == 'tiki':
+        url = f'https://tiki.vn/api/v2/products/{shopid}?platform=web&spid={itemid}'
+    else:
+        # TODO: Developer add logic here
+        pass
     
     response = requests.get(url, headers=headers)
 
     if response.status_code != 200:
         raise Exception(f'Failed to fetch data from {url}')
 
-    data = response.json().get('data')
+    if flag == 'shopee':
+        data = response.json().get('data')
+    elif flag == 'tiki':
+        data = response.json()
+    else:
+        # TODO: Developer add logic here
+        pass
+
     if not data:
         raise Exception(f'Failed to fetch data from {url}')
 
-    required_fieds = [
-        'itemid', 'shopid', 'name', 'description', 'price',
-        'price_before_discount', 'stock', 'sold', 'item_status', 'image',
-        'cmt_count', 'liked_count', 'shop_location'
-    ]
+    # required_fieds = [
+    #     'itemid', 'shopid', 'name', 'description', 'price',
+    #     'price_before_discount', 'stock', 'sold', 'item_status', 'image',
+    #     'cmt_count', 'liked_count', 'shop_location'
+    # ]
 
-    # validate data must have required fields
-    for field in required_fieds:
-        if field not in data:
-            raise Exception(f'Invalid data from {url}, missing {field}')
+    # # validate data must have required fields
+    # for field in required_fieds:
+    #     if field not in data:
+    #         raise Exception(f'Invalid data from {url}, missing {field}')
 
-    return data
+    global TIKI_REQUIRED_FIELDS
+    global SHOPEE_REQUIRED_FIELDS
+
+    if len(SHOPEE_REQUIRED_FIELDS) > len(TIKI_REQUIRED_FIELDS):
+        TIKI_REQUIRED_FIELDS = TIKI_REQUIRED_FIELDS + SHOPEE_REQUIRED_FIELDS[len(TIKI_REQUIRED_FIELDS): len(SHOPEE_REQUIRED_FIELDS)]
+    else:
+        SHOPEE_REQUIRED_FIELDS = SHOPEE_REQUIRED_FIELDS.append(TIKI_REQUIRED_FIELDS[len(SHOPEE_REQUIRED_FIELDS): len(TIKI_REQUIRED_FIELDS)])
+        
+    # mapping fields to common fields
+    data_f = {}
+    for x,y in zip(SHOPEE_REQUIRED_FIELDS, TIKI_REQUIRED_FIELDS):
+        if y in data:
+            data_f[x] = data[y]
+        else:
+            data_f[x] = ""
+
+    return data_f
 
 
 def update_db(data):
@@ -146,8 +176,8 @@ def main():
     for url in urls:
         try:
             print(f'Processing: {url}')
-            itemid, shopid = parse_shopee_url(url)
-            data = fetch_data(itemid, shopid)
+            itemid, shopid, flag = parse_url(url)
+            data = fetch_data(itemid, shopid, flag)
             update_db(data)
         except Exception as e:
             print(f'Failed to process {url}')

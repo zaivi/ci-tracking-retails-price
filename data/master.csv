@@ -1,17 +1,33 @@
 item_name,source,date,price,discount,price_before_discount,stock,sold,cmt_count,liked_count,item_status,is_latest
-[Free Lắp HCM] Hệ Thống Máy Lạnh Multi S Daikin Inverter Combo MKC70SVMV/CTKC35RVMV+CTKC35RVMV+CTKC35RVMV Gas R32 Treo Tường 1 Chiều Lạnh Hàng Chính Hãng,tiki,2023-06-05 23:43:49,48300000,,48300000,1000,,0,0,available,True
-XE MÁY SH 350I PHIÊN BẢN CAO CẤP,tiki,2023-06-05 23:43:50,147590000,,147590000,1000,13.0,3,0,available,True
-Xe Máy Honda Air Blade 160 Phiên Bản Đặc Biệt 2023,tiki,2023-06-05 23:43:50,57990000,,57990000,1000,17.0,11,0,available,True
-Apple iPhone 14 Pro Max,tiki,2023-06-05 23:43:48,27450000,19%,33990000,1000,2936.0,472,0,available,True
-Máy giặt sấy LG Inverter 21 kg WT2116SHEG - hàng chính hãng( Chỉ giao HCM),tiki,2023-06-05 23:43:48,59990000,,59990000,1000,,0,0,available,True
-Điện thoại Samsung Galaxy S23 Ultra 5G (8GB/256GB) - Hàng chính hãng ,tiki,2023-06-05 23:43:49,24490000,23%,31990000,1000,14.0,3,0,available,True
-Xe máy Honda VARIO 160cc 2023 Phiên bản Thể Thao - Xám đen bạc,tiki,2023-06-05 23:43:50,58440000,,58440000,1000,,0,0,available,True
-Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,shopee,2023-06-05 23:43:53,19471086,15%,22811373,9,1.0,1,0,normal,True
-Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,shopee,2023-06-05 23:43:53,22871862,,0,14,0.0,0,0,normal,True
-"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",shopee,2023-06-05 23:43:51,13162994,7%,14135575,21,1.0,47,0,normal,True
-Apple AirPods 3rd gen magsafe charge,shopee,2023-06-05 23:43:51,5597666,8%,6085480,0,61.0,1177,9,sold_out,True
-Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,shopee,2023-06-05 23:43:51,37174097,23%,48156532,20,12.0,29,5,normal,True
-[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,shopee,2023-06-05 23:43:54,41292972,25%,55256077,25,5.0,24,2,normal,True
-[Mã ELRE3T5 giảm 15% đơn 10TR] Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,shopee,2023-06-05 23:43:52,49232833,,0,2,1.0,24,0,normal,True
-Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,shopee,2023-06-05 23:43:52,31583342,16%,37434276,226,158.0,49,40,normal,True
-Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,shopee,2023-06-05 23:43:53,27350932,11%,30880085,1402,0.0,12,0,normal,True
+[Free Lắp HCM] Hệ Thống Máy Lạnh Multi S Daikin Inverter Combo MKC70SVMV/CTKC35RVMV+CTKC35RVMV+CTKC35RVMV Gas R32 Treo Tường 1 Chiều Lạnh Hàng Chính Hãng,tiki,2023-06-05 16:44:51,48300000,,48300000,1000,,0,0,available,True
+[Free Lắp HCM] Hệ Thống Máy Lạnh Multi S Daikin Inverter Combo MKC70SVMV/CTKC35RVMV+CTKC35RVMV+CTKC35RVMV Gas R32 Treo Tường 1 Chiều Lạnh Hàng Chính Hãng,tiki,2023-06-05 23:43:49,48300000,,48300000,1000,,0,0,available,False
+XE MÁY SH 350I PHIÊN BẢN CAO CẤP,tiki,2023-06-05 16:44:52,147590000,,147590000,1000,13.0,3,0,available,True
+XE MÁY SH 350I PHIÊN BẢN CAO CẤP,tiki,2023-06-05 23:43:50,147590000,,147590000,1000,13.0,3,0,available,False
+Xe Máy Honda Air Blade 160 Phiên Bản Đặc Biệt 2023,tiki,2023-06-05 16:44:53,57990000,,57990000,1000,17.0,11,0,available,True
+Xe Máy Honda Air Blade 160 Phiên Bản Đặc Biệt 2023,tiki,2023-06-05 23:43:50,57990000,,57990000,1000,17.0,11,0,available,False
+Apple iPhone 14 Pro Max,tiki,2023-06-05 16:44:50,27450000,19%,33990000,1000,2936.0,472,0,available,True
+Apple iPhone 14 Pro Max,tiki,2023-06-05 23:43:48,27450000,19%,33990000,1000,2936.0,472,0,available,False
+Máy giặt sấy LG Inverter 21 kg WT2116SHEG - hàng chính hãng( Chỉ giao HCM),tiki,2023-06-05 16:44:50,59990000,,59990000,1000,,0,0,available,True
+Máy giặt sấy LG Inverter 21 kg WT2116SHEG - hàng chính hãng( Chỉ giao HCM),tiki,2023-06-05 23:43:48,59990000,,59990000,1000,,0,0,available,False
+Điện thoại Samsung Galaxy S23 Ultra 5G (8GB/256GB) - Hàng chính hãng ,tiki,2023-06-05 16:44:51,24490000,23%,31990000,1000,14.0,3,0,available,True
+Điện thoại Samsung Galaxy S23 Ultra 5G (8GB/256GB) - Hàng chính hãng ,tiki,2023-06-05 23:43:49,24490000,23%,31990000,1000,14.0,3,0,available,False
+Xe máy Honda VARIO 160cc 2023 Phiên bản Thể Thao - Xám đen bạc,tiki,2023-06-05 16:44:52,58440000,,58440000,1000,,0,0,available,True
+Xe máy Honda VARIO 160cc 2023 Phiên bản Thể Thao - Xám đen bạc,tiki,2023-06-05 23:43:50,58440000,,58440000,1000,,0,0,available,False
+Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,shopee,2023-06-05 16:45:01,19805549,15%,23203213,9,1.0,1,0,normal,True
+Loa Marshall Bluetooth WOBURN II Homeline - Bảo Hành Chính Hãng 1 đổi 1 trong 1 Năm,shopee,2023-06-05 23:43:53,19471086,15%,22811373,9,1.0,1,0,normal,False
+Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,shopee,2023-06-05 16:45:04,23345599,,0,14,0.0,0,0,normal,True
+Máy Robot Lọc Không Khí Tự Động Thông Minh Ecovacs AirBot ANDY,shopee,2023-06-05 23:43:53,22871862,,0,14,0.0,0,0,normal,False
+"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",shopee,2023-06-05 16:44:56,13466808,7%,14461836,21,1.0,32,0,normal,True
+"[Mã ELRE3T5 giảm 15% đơn 10TR] Màn Hình Dell UltraSharp U2722DE 27"" QHD LED IPS 60Hz 5ms HDMI DP RJ45 USB Type-C",shopee,2023-06-05 23:43:51,13162994,7%,14135575,21,1.0,47,0,normal,False
+Apple AirPods 3rd gen magsafe charge,shopee,2023-06-05 16:44:54,5689743,8%,6185582,0,52.0,1122,7,sold_out,True
+Apple AirPods 3rd gen magsafe charge,shopee,2023-06-05 23:43:51,5597666,8%,6085480,0,61.0,1177,9,sold_out,False
+Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,shopee,2023-06-05 16:44:57,37962243,23%,49177522,20,10.0,28,4,normal,True
+Điện thoại Apple iPhone 14 Pro Max 256GB - Chính hãng VN/A,shopee,2023-06-05 23:43:51,37174097,23%,48156532,20,12.0,29,5,normal,False
+[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,shopee,2023-06-05 16:45:05,41973372,25%,56166552,26,4.0,22,1,normal,True
+[Mã ELMG00116 giảm 6% tối đa 2TR] Apple iPhone 14 Pro 256GB,shopee,2023-06-05 23:43:54,41292972,25%,55256077,25,5.0,24,2,normal,False
+[Mã ELRE3T5 giảm 15% đơn 10TR] Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,shopee,2023-06-05 16:44:58,36916848,,0,2,1.0,16,0,normal,True
+[Mã ELRE3T5 giảm 15% đơn 10TR] Smart Tivi QLED Samsung 4K 55 Inch QA55Q80BAKXXV - Miễn phí lắp đặt,shopee,2023-06-05 23:43:52,49232833,,0,2,1.0,24,0,normal,False
+Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,shopee,2023-06-05 16:45:00,32228783,16%,38199288,216,137.0,90,32,normal,True
+Bộ sưu tập giới hạn: Điện thoại Samsung S23 Ultra 8GB/256GB + Đồng hồ Galaxy Watch5 + Duo Charger,shopee,2023-06-05 23:43:52,31583342,16%,37434276,226,158.0,49,40,normal,False
+Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,shopee,2023-06-05 16:45:02,27982168,11%,31592770,1404,0.0,8,0,normal,True
+Robot hút bụi lau nhà Roborock S8 Pro Ultra – Phiên bản Quốc Tế  – Bảo hành 24 tháng,shopee,2023-06-05 23:43:53,27350932,11%,30880085,1402,0.0,12,0,normal,False

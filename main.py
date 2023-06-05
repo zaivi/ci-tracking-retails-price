@@ -65,8 +65,18 @@ def fetch_data(itemid, shopid, flag='shopee'):
         shopee_rq = SHOPEE_REQUIRED_FIELDS.append(TIKI_REQUIRED_FIELDS[len(SHOPEE_REQUIRED_FIELDS): len(TIKI_REQUIRED_FIELDS)])
         
     # mapping fields to common fields
+    if flag == 'shopee':
+        source_map = shopee_rq
+        destination_map = shopee_rq
+    elif flag == 'tiki':
+        source_map = shopee_rq
+        destination_map = tiki_rq
+    else:
+        # TODO: Developer add logic here
+        pass
+
     data_f = {}
-    for x,y in zip(shopee_rq, tiki_rq):
+    for x,y in zip(source_map, destination_map):
         if y in data:
             data_f[x] = data[y]
         else:
@@ -157,6 +167,7 @@ def update_db(data):
         'name': data.get('name'),
         'image': data.get('image'),
         'shop_location': data.get('shop_location'),
+        'source': data.get('source'),
         'updated_at': datetime.datetime.now().isoformat()
     }
     # create or update info file

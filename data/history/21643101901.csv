@@ -1,2 +1,3 @@
 time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt_count,liked_count,source
 1685983432,2023-06-05 23:43:52,21643101901,49232833,,0,2,1,normal,24,0,shopee
+1685983498,2023-06-05 16:44:58,21643101901,36916848,,0,2,1,normal,16,0,shopee

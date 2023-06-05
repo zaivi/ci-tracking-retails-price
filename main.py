@@ -91,6 +91,9 @@ def fetch_data(itemid, shopid, flag='shopee'):
         data_f['price'] = data_f['price'] // 100000
         data_f['price_before_discount'] = data_f['price_before_discount']  // 100000
 
+    if flag == 'tiki':
+        data_f['discount'] = str(data_f['discount']) + "%" if data_f['discount'] != 0 else ""
+        
     data_f["source"] = flag
     
     return data_f

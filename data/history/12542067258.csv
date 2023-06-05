@@ -3,3 +3,4 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1685983494,2023-06-05 16:44:54,12542067258,5689743,8%,6185582,0,52,sold_out,1122,7,shopee,
 1685983821,2023-06-05 16:50:21,12542067258,5749478,8%,6250522,0,64,sold_out,1062,6,shopee,https://shopee.vn/Apple-AirPods-3rd-gen-magsafe-charge-i.88201679.12542067258
 1685984559,2023-06-05 17:02:39,12542067258,6158733,10%,6844561,7,63,normal,1266,21,shopee,https://shopee.vn/Apple-AirPods-3rd-gen-magsafe-charge-i.88201679.12542067258
+1685986278,2023-06-05 17:31:18,12542067258,6268867,10%,6966959,9,63,normal,1537,17,shopee,https://shopee.vn/Apple-AirPods-3rd-gen-magsafe-charge-i.88201679.12542067258

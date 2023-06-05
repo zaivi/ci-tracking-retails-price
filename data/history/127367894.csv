@@ -1,0 +1,2 @@
+time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt_count,liked_count,source
+1685980750,2023-06-05 15:59:10,127367894,147590000,,147590000,,,available,3,0,tiki

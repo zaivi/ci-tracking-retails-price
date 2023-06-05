@@ -87,6 +87,10 @@ def fetch_data(itemid, shopid, flag='shopee'):
         else:
             data_f[x] = ""
 
+    if flag == 'shopee':
+        data_f['price'] = data_f['price'] // 100000
+        data_f['price_before_discount'] = data_f['price_before_discount']  // 100000
+
     data_f["source"] = flag
     
     return data_f

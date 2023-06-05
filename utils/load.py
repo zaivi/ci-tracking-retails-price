@@ -37,9 +37,9 @@ def update_master_file(src='./data/history/*.csv', target='./data/master.csv'):
     df['item_name'] = df['itemid'].apply(get_item_name)
 
     # format price, price_before_discount
-    df['price'] = df['price'].apply(transform_price)
-    df['price_before_discount'] = df['price_before_discount'].apply(
-        transform_price)
+    # df['price'] = df['price'].apply(transform_price)
+    # df['price_before_discount'] = df['price_before_discount'].apply(
+    #     transform_price)
 
     # Add column is_latest to indicate newest record for each itemid
     df['is_latest'] = df.groupby('itemid').cumcount() == 0

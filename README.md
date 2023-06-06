@@ -6,7 +6,7 @@ Capture price changes on [Tiki](https://tiki.vn/) and [Shopee](https://shopee.vn
 
 Flatdata: [https://flatgithub.com/zaivi/cicd-tracking-shopee-price](https://flatgithub.com/zaivi/cicd-tracking-shopee-price?filename=data%2Fmaster.csv&filters=&sort=date%2Cdesc&stickyColumnName=item_name)
 
-![](.github/screenshot/flat-github.png)
+![](.github/screenshot/flat.png)
 
 ## Credit
 

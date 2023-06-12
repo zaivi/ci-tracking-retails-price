@@ -301,3 +301,4 @@ time,date,itemid,price,discount,price_before_discount,stock,sold,item_status,cmt
 1686562277,2023-06-12 09:31:17,197216291,27450000,19%,33990000,1000,2941,available,477,0,tiki,https://tiki.vn/api/v2/products/197216291?platform=web&spid=197216310
 1686564325,2023-06-12 10:05:25,197216291,27450000,19%,33990000,1000,2941,available,477,0,tiki,https://tiki.vn/api/v2/products/197216291?platform=web&spid=197216310
 1686566049,2023-06-12 10:34:09,197216291,27450000,19%,33990000,1000,2941,available,477,0,tiki,https://tiki.vn/api/v2/products/197216291?platform=web&spid=197216310
+1686567743,2023-06-12 11:02:23,197216291,27450000,19%,33990000,1000,2941,available,477,0,tiki,https://tiki.vn/api/v2/products/197216291?platform=web&spid=197216310

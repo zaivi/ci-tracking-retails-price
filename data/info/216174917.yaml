@@ -7,6 +7,22 @@ image:
   position: null
   small_url: https://salt.tikicdn.com/cache/200x280/ts/product/db/87/58/64c8c839133ecaa6416e72bd910d1092.jpg
   thumbnail_url: https://salt.tikicdn.com/cache/200x280/ts/product/db/87/58/64c8c839133ecaa6416e72bd910d1092.jpg
+- base_url: https://salt.tikicdn.com/ts/product/01/3a/b8/55600f8bded81099dd7725d3971d5560.jpg
+  is_gallery: true
+  label: null
+  large_url: https://salt.tikicdn.com/cache/w1200/ts/product/01/3a/b8/55600f8bded81099dd7725d3971d5560.jpg
+  medium_url: https://salt.tikicdn.com/cache/w300/ts/product/01/3a/b8/55600f8bded81099dd7725d3971d5560.jpg
+  position: null
+  small_url: https://salt.tikicdn.com/cache/200x280/ts/product/01/3a/b8/55600f8bded81099dd7725d3971d5560.jpg
+  thumbnail_url: https://salt.tikicdn.com/cache/200x280/ts/product/01/3a/b8/55600f8bded81099dd7725d3971d5560.jpg
+- base_url: https://salt.tikicdn.com/ts/product/1b/a3/0a/1251abd4a54f5be6859662738ec2fce9.jpg
+  is_gallery: true
+  label: null
+  large_url: https://salt.tikicdn.com/cache/w1200/ts/product/1b/a3/0a/1251abd4a54f5be6859662738ec2fce9.jpg
+  medium_url: https://salt.tikicdn.com/cache/w300/ts/product/1b/a3/0a/1251abd4a54f5be6859662738ec2fce9.jpg
+  position: null
+  small_url: https://salt.tikicdn.com/cache/200x280/ts/product/1b/a3/0a/1251abd4a54f5be6859662738ec2fce9.jpg
+  thumbnail_url: https://salt.tikicdn.com/cache/200x280/ts/product/1b/a3/0a/1251abd4a54f5be6859662738ec2fce9.jpg
 - base_url: https://salt.tikicdn.com/ts/product/6e/44/b5/04d9e0950060436a08e391205e25ea4c.png
   is_gallery: true
   label: null
@@ -141,5 +157,5 @@ name: "\u0110i\u1EC7n tho\u1EA1i Samsung Galaxy S23 Ultra 5G (8GB/256GB) - H\xE0
 shop_location: ''
 shopid: 216174917
 source: tiki
-updated_at: '2023-07-04T08:08:50.145514'
+updated_at: '2023-07-04T08:37:41.708797'
 url: https://tiki.vn/dien-thoai-samsung-galaxy-s23-ultra-5g-8gb-256gb-hang-chinh-hang-p216174917.html?itm_campaign=tiki-reco_UNK_DT_UNK_UNK_infinite-scroll-desktop_UNK_UNK_UNK_AD_batched_PID.216174921&itm_medium=CPC&itm_source=tiki-reco&spid=216174921
